@@ -1,0 +1,65 @@
+#divLogin{
+	width: 360px;
+	height: 150px;
+	padding: 10px;
+	border: 1px;
+	border: solid;
+	border-width: 1px;
+	background-color: #D3D8DA;
+	border-radius: 8px;
+	box-shadow: rgba(1, 1, 1, 0.701961) 0px 0px 5px 0px;
+	box-sizing: border-box;
+	margin: 40px auto;
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+
+#fundo{
+	height: 100%;
+	margin: 0;
+	background-color: gainsboro;
+}
+
+.stcInput{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border-radius: 6px;
+	width: 265px;
+	margin-left: 10px;
+}
+
+.stcButton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 5px 13px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#1ba2e0 20%,
+		#0c43a3);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(rgb(7, 46, 90)),
+		color-stop(0.20, #031D6F),
+		to(#02245F));
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 4px;
+	border: 1px solid #3c5d9e;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.stcButton:hover {
+  opacity: 0.8;
+}
